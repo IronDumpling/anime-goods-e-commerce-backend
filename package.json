@@ -1,0 +1,24 @@
+{
+  "name": "project-backend",
+  "version": "0.1.0",
+  "description": "The Backend of ECE1724 Project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.3.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.3.1",
+    "supertest": "^7.0.0"
+  }
+}
